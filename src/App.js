@@ -54,7 +54,7 @@ export default function App() {
             <Route exact path='/'>
               {
                 user
-                  ? <Redirect to='list'/>
+                  ? <Redirect to='bands'/>
                   : <AuthPage setUser={setUser} />
               }
             </Route>
