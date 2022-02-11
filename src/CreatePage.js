@@ -21,7 +21,7 @@ export default function CreatePage() {
     history.push('/bands');
   }
   return (
-    <div>
+    <div className='create'>
       <form onSubmit={handleSubmit}>
         <h3>Add a Band</h3>
         <label>

@@ -14,7 +14,7 @@ export default function ListPage() {
   }, []);
 
   return (
-    <div>List Of Bands:
+    <div className='list'>List Of Bands:
       {
         bands.map(band => <Band key={band.id} band={band} />)
       }
