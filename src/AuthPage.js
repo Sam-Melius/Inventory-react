@@ -17,7 +17,7 @@ export default function AuthPage({ setUser }) {
   }
 
   return (
-    <div>
+    <div className='sign-in'>
       <h1>Bands</h1>
       <form onSubmit={handleSignIn}>
         <label>

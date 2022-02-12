@@ -33,7 +33,7 @@ export default function App() {
     
     <Router>
       <div className="App">
-        <header>
+        <header className='options'>
           {
             user &&
             <ul>
@@ -44,7 +44,7 @@ export default function App() {
                 <NavLink to='/create'>Create Page</NavLink>
               </li>
               <li>
-                <a onClick={handleLogout}>Logout</a>
+                <a className='logout' onClick={handleLogout}>Logout</a>
               </li>
             </ul>
           }

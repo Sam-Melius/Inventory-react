@@ -46,6 +46,7 @@
   flex-direction: column;
   padding: 10rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
   background-image: linear-gradient(
   45deg,
   hsl(185deg 100% 20%) 0%,
@@ -62,6 +63,79 @@
 }
 
 .create {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  padding: 15rem;
+background-image: linear-gradient(
+  45deg,
+  hsl(10deg 97% 44%) 0%,
+  hsl(347deg 100% 48%) 10%,
+  hsl(337deg 100% 50%) 20%,
+  hsl(326deg 100% 50%) 30%,
+  hsl(312deg 100% 49%) 40%,
+  hsl(289deg 100% 50%) 50%,
+  hsl(209deg 100% 50%) 60%,
+  hsl(197deg 100% 50%) 70%,
+  hsl(189deg 100% 50%) 80%,
+  hsl(183deg 100% 49%) 90%,
+  hsl(167deg 100% 50%) 100%
+);
+}
+h1 {
+  border: double;
+  border-radius: 10px;
+  color: white;
+  font-size: 5rem;
+}
+.sign-in {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+  45deg,
+  hsl(162deg 97% 44%) 0%,
+  hsl(179deg 100% 42%) 10%,
+  hsl(193deg 100% 50%) 20%,
+  hsl(199deg 100% 50%) 30%,
+  hsl(209deg 100% 50%) 40%,
+  hsl(289deg 100% 50%) 50%,
+  hsl(209deg 100% 50%) 60%,
+  hsl(197deg 100% 50%) 70%,
+  hsl(189deg 100% 50%) 80%,
+  hsl(183deg 100% 49%) 90%,
+  hsl(167deg 100% 50%) 100%
+);
+padding: 20rem;
+margin:20px
+}
+
+.band {
+  border: double white;
+  border-radius: 10px;
+  border-width: 15px;
+  padding: 5px;
+  margin: 10px;
+  color:crimson;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.options {
+  cursor: pointer;
+  border: solid black;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 10px;
+}
+
+.band-info {
   align-items: center;
   justify-content: center;
   color: white;

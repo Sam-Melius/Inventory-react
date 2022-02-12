@@ -15,7 +15,7 @@ export default function DetailPage() {
   }, [match.params.id]);
 
   return (
-    <div>
+    <div className='band-info'>
       <h1>{band.name}</h1>
       <h2>A {band.genre} band with {band.members} members.</h2>
       <p>
